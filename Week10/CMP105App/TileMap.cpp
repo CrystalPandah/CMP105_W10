@@ -7,9 +7,9 @@ void TileMap::render(sf::RenderWindow* window)
 	}
 }
 
-void TileMap::loadTexture(char* filename)
+void TileMap::loadTexture(char* "gfx/marioTiles.png")
 {
-	texture.loadFromFile(filename);
+	texture.loadFromFile("gfx/marioTiles.png");
 }
 
 //Store procided tileSet
